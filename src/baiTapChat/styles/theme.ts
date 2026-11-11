@@ -1,0 +1,20 @@
+export const themeChat = {
+  colors: {
+    primary: '#11776B',
+    primaryPressed: '#0D6056',
+    background: '#FAF8F2',
+    surface: '#FFFEFA',
+    soft: '#E1EFE8',
+    muted: '#EEEEE4',
+    text: '#243930',
+    secondary: '#65766C',
+    border: '#DFE4DB',
+    inputBorder: '#89998F',
+    success: '#16865B',
+    white: '#FFFFFF',
+    error: '#AE283B',
+    errorBackground: '#FFF0F0',
+  },
+  spacing: { xs: 4, sm: 8, md: 16, lg: 24, xl: 32 },
+  radius: { sm: 12, md: 20, lg: 24, full: 999 },
+};

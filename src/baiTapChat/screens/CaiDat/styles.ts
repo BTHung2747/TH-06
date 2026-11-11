@@ -1,0 +1,63 @@
+import { StyleSheet } from 'react-native';
+import { themeChat as theme } from '../../styles/theme';
+export const styles = StyleSheet.create({
+  screen: { flex: 1, backgroundColor: theme.colors.background },
+  content: { paddingBottom: 24 },
+  profile: {
+    paddingHorizontal: 24,
+    paddingTop: 8,
+    paddingBottom: 28,
+    alignItems: 'center',
+    gap: 8,
+  },
+  name: {
+    fontSize: 23,
+    fontWeight: '700',
+    color: theme.colors.text,
+    textAlign: 'center',
+    marginTop: 8,
+  },
+  username: {
+    fontSize: 14,
+    color: theme.colors.secondary,
+    textAlign: 'center',
+  },
+  group: { marginHorizontal: 24, marginBottom: 24 },
+  row: {
+    minHeight: 84,
+    paddingVertical: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 12,
+    borderTopWidth: 1,
+    borderTopColor: theme.colors.border,
+  },
+  copy: { flex: 1 },
+  label: { fontSize: 16, fontWeight: '500', color: theme.colors.text },
+  description: {
+    fontSize: 13,
+    lineHeight: 21,
+    color: theme.colors.secondary,
+    marginTop: 5,
+  },
+  switch: { minHeight: 48, width: 56 },
+  logout: {
+    minHeight: 54,
+    borderRadius: 20,
+    marginHorizontal: 24,
+    backgroundColor: theme.colors.soft,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
+  },
+  logoutText: { fontSize: 16, fontWeight: '600', color: theme.colors.primary },
+  legacy: {
+    minHeight: 48,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 12,
+  },
+  legacyText: { fontSize: 13, color: theme.colors.secondary },
+});
